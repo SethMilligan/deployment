@@ -14,3 +14,5 @@ st.button("Click me!", on_click=clickFn)
 
 if st.session_state.buttonState:
     st.write("You've clicked this button!")
+
+st.button("Reset")
